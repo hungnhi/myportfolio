@@ -1,0 +1,41 @@
+#skill{
+    scroll-margin-top: 160px;
+    
+}
+.titleskill{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.skill{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.skill_languages{
+    width: 1500px;
+    height: 600px;
+    border: solid #00abf0;
+    & h4{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
+.skill_{
+    width: 1500px;
+    height: 600px;
+    border: solid #00abf0;
+}
+.skill_languages--card{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    & i{
+        font-size: 80px;
+    }
+}
