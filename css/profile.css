@@ -1,0 +1,118 @@
+#profile{
+    scroll-margin-top: 200px;
+    
+}
+.titleprofile{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.myprofile{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.myprofile-avata{
+    width: 400px;
+    height: 800px;
+    padding: 10px;
+    border: 0.5px solid #3b3b50;
+    border-radius: 0.5rem;
+    transition: transform 0.5s;
+    & img{
+        width: 380px;
+    }
+}
+.myprofile-aboutme{
+    width: 800px;
+    height: 800px;
+    padding: 10px;
+    border: 0.5px solid #3b3b50;
+    border-radius: 0.5rem;
+    transition: transform 0.5s;
+    & p{
+        font-size: 20px;
+    }
+}
+.myprofile-avata:hover,
+.myprofile-aboutme:hover{
+    border: 0.5px solid #00abf0;
+    box-shadow:0 15px 30px rgba(0, 171, 240, 0.1);
+    transform: scale(1.03);
+}
+.myprofile-contact{
+    padding: 10px;
+    & p{
+        font-size: 20px;
+    }
+}
+.languages{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 1px;
+}
+.languages-vn{
+    width: 350px;
+    height: 80px;
+    border: 0.5px solid #00abf0;
+    border-radius: 0.7rem;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.boxvn{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.boxen{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.languages-en{
+    width: 350px;
+    height: 80px;
+    border: 0.5px solid #00abf0;
+    border-radius: 0.7rem;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.box{
+    width: 60px;
+    height: 10px;
+    background-color: #b77fff;
+    border-radius: 1rem;
+}
+.boxdark{
+    width: 60px;
+    height: 10px;
+    background-color: #3b3b50;
+    border-radius: 1rem;
+}
+.education{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    & p{
+        font-size: 15px;
+        color: dodgerblue;
+    }
+}
+.education-highschool{
+    width: 350px;
+    height: 80px;
+    border: 0.5px solid #00abf0;
+    border-radius: 0.7rem;
+    padding: 5px;
+}
+.education-university{
+    width: 350px;
+    height: 80px;
+    border: 0.5px solid #00abf0;
+    border-radius: 0.7rem;
+    padding: 5px;
+}
